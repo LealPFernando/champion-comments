@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background-color: #1b1924;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+.main {
+  max-width: 390px;
+  margin: 51px auto auto auto;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+img {
+  width: 90px;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+textarea {
+  display: block;
+  background-color: #444059;
+  color: #8f8f8f;
+  width: 317px;
+  height: 118px;
+  margin: 19px auto 13px auto;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 12px 17px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+#publish-btn {
+  background-color: #28a9f1;
+  color: #04131c;
+  border: none;
+  border-radius: 8px;
+  width: 317px;
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  height: 61px;
+}
+
+.subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 19px;
+}
+
+#comments-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.comment {
+  /* box-sizing: border-box; */
+  background-color: #ffffff;
+  color: #1b1924;
+  font-size: 12px;
+  font-weight: 400;
+  width: 317px;
+  padding: 16px 13px;
+  text-align: left;
+}
